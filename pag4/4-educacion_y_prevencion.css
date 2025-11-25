@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    color:#ffffff;
+    background: linear-gradient(to bottom, #9f6ae0, #c38cff);
+    font-family: "Poppins", sans-serif;
+    line-height:1.6;
+    padding-bottom:60px;
+}
+
+/* Título */
+h1{
+    text-align:center;
+    font-size:90px;
+    margin-top:40px;
+    line-height:1.1;
+}
+
+/* Intro */
+.intro{
+    width:75%;
+    margin:20px auto 40px auto;
+    font-size:30px;
+    text-align:center;
+    font-family:'Open Sans', sans-serif;
+}
+
+/* Títulos de sección */
+.titulo_seccion{
+    text-align:center;
+    font-size:50px;
+    margin:40px 0 20px 0;
+    font-weight:700;
+}
+
+/* Grid de tarjetas */
+.grid{
+    width:85%;
+    margin:0 auto 40px auto;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:35px;
+}
+
+/* Tarjetas */
+.card{
+    background:#ffffff;
+    color:#333;
+    border-radius:20px;
+    padding:30px;
+    position:relative;
+    min-height:260px;
+}
+
+/* Títulos de tarjetas */
+.card h3{
+    font-size:28px;
+    margin-bottom:10px;
+}
+
+/* Párrafos */
+.card p{
+    font-size:20px;
+    margin-bottom:18px;
+    font-family:'Open Sans', sans-serif;
+    text-align:justify;
+    padding-right:120px;  /* Para que no choque con el icono */
+}
+
+/* Enlaces */
+.card a{
+    color:#0d9b71;
+    font-size:20px;
+    font-weight:600;
+    text-decoration:none;
+}
+
+.card a:hover{
+    text-decoration:underline;
+}
+
+/* Iconos */
+.icon{
+    position:absolute;
+    right:25px;
+    bottom:25px;
+    width:80px;
+    height:80px;
+}

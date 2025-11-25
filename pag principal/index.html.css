@@ -1,0 +1,47 @@
+*{  /*reset para los bordes*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+    body{ /*estilos para el cuerpo*/
+        color:#ffffff;
+        background:linear-gradient(to bottom, #6038bd, #9379a8 );
+        line-height: 1.5;
+}
+    h1{ /*titulo h1*/
+        text-align: center;
+        width: auto;
+        height: 130px;
+        line-height: 1.8;
+        font-family:"Poppins", sans-serif;
+        font-size: 105px
+    }
+    
+    .parrafos{ /*párrafos*/
+        text-align: justify;
+        width: 1750px;
+        height: 170px;
+        line-height:2.2 ;
+        font-size: 32px;
+        margin: 0 auto;
+        font-family:"Poppins", sans-serif;
+    }
+    
+    img{ /*imagen*/
+        display:block;
+        margin: 0 auto;
+    }
+
+    .enlaces{ /*botones para accionar a otras paginas*/
+        text-align:center;
+        font-size:50px;
+        font-family:"Poppins", sans-serif;
+    }
+
+    .enlaces a{/*color del enlace*/
+        color:#ffffff
+    }
+
+

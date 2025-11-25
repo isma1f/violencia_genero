@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(to bottom, #7A51C8, #4C2A82);
+    font-family: "Open Sans", sans-serif;
+    color: #EEE7FF;
+    line-height: 1.6;
+}
+
+/* TÍTULO PRINCIPAL */
+h1{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 110px;
+    margin: 40px 0;
+    color: #F4E8FF;  /* violeta pastel claro */
+}
+
+/* SUBTÍTULOS SECCIONES */
+h2{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 55px;
+    margin: 50px 0 30px 0;
+    color: #FFEDC8; /* amarillo pastel */
+}
+
+/* Tarjetas de noticia */
+.noticia{
+    width: 85%;
+    background: #ffffff;
+    margin: 25px auto;
+    padding: 30px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    box-shadow: 0 0 18px rgba(0,0,0,0.35);
+}
+
+.noticia img{
+    width: 330px;
+    height: auto;
+    border-radius: 12px;
+}
+
+/* Titular dentro de la tarjeta */
+.noticia h3{
+    font-size: 33px;
+    font-family: "Poppins", sans-serif;
+    color: #3D1E63; /* violeta oscuro */
+}
+
+/* Texto de noticia */
+.noticia p{
+    font-size: 21px;
+    color: #4A4A4A; /* gris oscuro para contraste */
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Enlace "Más información" */
+.noticia a{
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #118C4F; /* verde suave */
+    text-decoration: none;
+}
+
+.noticia a:hover{
+    color: #0A5E36;
+}
+
+/* SECCIÓN FINAL #PONFIN */
+.campaña{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 95px;
+    margin: 90px 0;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.campaña strong{
+    color: #FFD0FF; /* rosa pastel */
+}
+
+h1{
+    text-align:center;
+    font-size:100px;
+    margin-top:40px;
+    line-height:1.1;
+}
+
+/* Subtítulo */
+.subtitulo{
+    text-align:center;
+    font-size:40px;
+    font-weight:500;
+    width:80%;
+    margin:20px auto;
+}
+
+/* Texto principal */
+.texto_principal{
+    width:75%;
+    margin:35px auto;
+    font-size:28px;
+    text-align:justify;
+    font-family:'Open Sans', sans-serif;
+}
+
+/* Título de sección */
+.titulo_objetivos{
+    text-align:center;
+    font-size:50px;
+    margin-top:40px;
+    margin-bottom:20px;
+}
+
+/* Contenedor de objetivos */
+.contenedor_objetivos{
+    width:80%;
+    margin:0 auto;
+    background:#4d2a8c;
+    padding:40px;
+    border-radius:20px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+
+/* Cada item */
+.item{
+    background:#7a52c4;
+    padding:30px;
+    border-radius:15px;
+    position:relative;
+}
+
+.item h3{
+    font-size:35px;
+    margin-bottom:15px;
+}
+
+.item p{
+    font-size:22px;
+    font-family:"Open Sans", sans-serif;
+    text-align:justify;
+    padding-right:150px;
+}
+
+/* Iconos */
+.icono{
+    position:absolute;
+    right:30px;
+    top:40px;
+    width:90px;
+    height:90px;
+}
