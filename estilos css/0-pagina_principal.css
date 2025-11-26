@@ -1,0 +1,82 @@
+/* reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* cuerpo */
+body {
+    color: #ffffff;
+    background: linear-gradient(to bottom, #6038bd, #9379a8);
+    line-height: 1.5;
+}
+
+/* -------- MENÚ SUPERIOR -------- */
+
+.menu {
+    width: 100%;
+    background-color: #6038bd; /* morado principal */
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.menu a {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    color: #ffdbf5;
+    text-decoration: underline;
+}
+
+/* -------- TÍTULO -------- */
+h1 {
+    text-align: center;
+    height: 130px;
+    line-height: 1.8;
+    font-family: "Poppins", sans-serif;
+    font-size: 105px;
+}
+
+/* -------- PÁRRAFOS -------- */
+.parrafos {
+    text-align: justify;
+    width: 1750px;
+    height: 170px;
+    line-height: 2.2;
+    font-size: 32px;
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+}
+
+/* -------- IMAGEN -------- */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* -------- ENLACES -------- */
+.enlaces {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+.enlaces a {
+    color: #ffffff;
+}
